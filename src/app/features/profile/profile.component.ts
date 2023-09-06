@@ -11,7 +11,9 @@ export class ProfileComponent {
 
   user$ = this.auth.user$;
 
-  code$ = this.user$.pipe(map((user) => JSON.stringify(user, null, 2)));
-
+  code$ = this.user$.pipe(map((user) => JSON.stringify(user, null, 2)));  
+  id_token$ = this.auth.idTokenClaims$;
+  comany$ = this.id_token$.pipe(map((id_token) => JSON.stringify(id_token, null, 2)));  
+  
   constructor(private auth: AuthService) {}
 }

@@ -2,11 +2,9 @@ export const environment = {
   production: true,
   auth0: {
     domain: 'dev-isoft.us.auth0.com',
-    clientId: 'lERzBtf7cxB37irvf5ON8ZPjyXXnYYyR',
+    clientId: 'MsRerHg8873JiTXZzpwxkNKrjBoEi3p3',
     authorizationParams: {
-      redirect_uri: 'https://github.com/M3rzh1n/Angular_Typescript_App1/callback',
-      connection: "sms",
-      prompt: "none",
+      redirect_uri: 'http://localhost:4020',
     },
     errorPath: '/callback',
   },

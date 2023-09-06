@@ -3,10 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-hero-banner',
   template: `
-    <div class="hero-banner hero-banner--medical"> 
-      <div class="hero-banner__logo">
-        <img class="hero-banner__image" [src]="logo" alt="ISoft Med logo" />
-      </div>
+    <div class="hero-banner hero-banner--academy" style="padding-top: 50px; padding-bottom: 50px"> 
+
       <h1 class="hero-banner__headline"></h1>
       
       <a
@@ -16,11 +14,11 @@ import { Component } from '@angular/core';
         target="_blank"
         rel="noopener noreferrer"
       >
-        Check out our new Subscription Packages →
+        Book your seat in our new Okta CIC Training →
       </a>
     </div>
   `,
 })
 export class HeroBannerComponent {
-  logo = 'https://raw.githubusercontent.com/M3rzh1n/ISoft-Demo/main/isoft-med.png';
+  logo = 'https://raw.githubusercontent.com/M3rzh1n/ISoft-Demo/main/logo%20academy.png';
 }
