@@ -4,7 +4,7 @@ export const environment = {
     domain: 'dev-isoft.us.auth0.com',
     clientId: 'MsRerHg8873JiTXZzpwxkNKrjBoEi3p3',
     authorizationParams: {
-      redirect_uri: 'http://localhost:4020',
+      redirect_uri: 'https://github.com/M3rzh1n/ISoft-Academy',
     },
     errorPath: '/callback',
   },
